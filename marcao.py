@@ -5,7 +5,7 @@ num2 = float(input("Digite o segundo número: "))
 
 print("\nEscolha a operação:")
 print("1 - Soma")
-print("2 - Subtração")
+# print("2 - Subtração")   <-- removida
 print("3 - Multiplicação")
 print("4 - Divisão")
 
@@ -15,14 +15,14 @@ if opcao == "1":
     resultado = num1 + num2
     print("Resultado:", resultado)
 
-elif opcao == "2":
-    resultado = num1 - num2
-    print("Resultado:", resultado)
+# elif opcao == "2":       <-- removido
+#     resultado = num1 - num2
+#     print("Resultado:", resultado)
 
 elif opcao == "3":
     resultado = num1 * num2
-    print("Resultado:", resultado)
-
+    print("Multiplicação resultou em:", resultado)
+    
 elif opcao == "4":
     if num2 != 0:
         resultado = num1 / num2
