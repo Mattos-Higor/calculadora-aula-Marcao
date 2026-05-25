@@ -29,6 +29,9 @@ elif opcao == "4":
         print("Resultado:", resultado)
     else:
         print("Não é possível dividir por zero")
+elif opcao == "5":  # <-- Nova lógica adicionada!
+    resultado = num1 ** num2
+    print("O resultado da potenciação é:", resultado)
 
 else:
     print("Opção inválida")
