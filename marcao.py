@@ -5,7 +5,7 @@ num2 = float(input("Digite o segundo número: "))
 
 print("\nEscolha a operação:")
 print("1 - Soma")
-# print("2 - Subtração")   <-- removida
+print("2 - Subtração")  # <-- Reativada!
 print("3 - Multiplicação")
 print("4 - Divisão")
 
@@ -15,9 +15,9 @@ if opcao == "1":
     resultado = num1 + num2
     print("Resultado:", resultado)
 
-# elif opcao == "2":       <-- removido
-#     resultado = num1 - num2
-#     print("Resultado:", resultado)
+elif opcao == "2":  # <-- Reativada!
+    resultado = num1 - num2
+    print("Resultado:", resultado)
 
 elif opcao == "3":
     resultado = num1 * num2
